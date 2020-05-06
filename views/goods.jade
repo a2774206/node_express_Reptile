@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  - var items = data
+  each item in data
+   span #{item.accounts} 
+   span #{item.password} 
+   span	#{item.describe} 	
+   p
+  
